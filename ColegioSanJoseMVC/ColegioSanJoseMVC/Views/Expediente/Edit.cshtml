@@ -1,0 +1,101 @@
+﻿@model ColegioSanJoseMVC.Models.Expediente
+
+@{
+    ViewData["Title"] = "Editar expediente";
+}
+
+<div class="container mt-4">
+
+    <div class="card shadow-sm border-0">
+
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">
+                <i class="bi bi-pencil-square"></i> Editar expediente
+            </h4>
+        </div>
+
+        <div class="card-body">
+
+            <form asp-action="Edit">
+
+                <div asp-validation-summary="ModelOnly"
+                     class="alert alert-danger"></div>
+
+                <input type="hidden" asp-for="ExpedienteId" />
+
+                <div class="mb-3">
+                    <label class="form-label">Alumno</label>
+
+                    <select asp-for="AlumnoId"
+                            class="form-select"
+                            asp-items="ViewBag.AlumnoId">
+                    </select>
+
+                    <span asp-validation-for="AlumnoId"
+                          class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Materia</label>
+
+                    <select asp-for="MateriaId"
+                            class="form-select"
+                            asp-items="ViewBag.MateriaId">
+                    </select>
+
+                    <span asp-validation-for="MateriaId"
+                          class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="NotaFinal" class="form-label">
+                        Nota final
+                    </label>
+
+                    <input asp-for="NotaFinal"
+                           class="form-control" />
+
+                    <span asp-validation-for="NotaFinal"
+                          class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Observaciones"
+                           class="form-label"></label>
+
+                    <textarea asp-for="Observaciones"
+                              class="form-control"
+                              rows="4"></textarea>
+
+                    <span asp-validation-for="Observaciones"
+                          class="text-danger"></span>
+                </div>
+
+                <div class="d-flex gap-2">
+
+                    <button type="submit"
+                            class="btn btn-primary">
+                        <i class="bi bi-save"></i> Actualizar
+                    </button>
+
+                    <a asp-action="Index"
+                           class="btn btn-secondary">
+                        <i class="bi bi-arrow-left"></i>
+                        Volver al listado
+                    </a>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

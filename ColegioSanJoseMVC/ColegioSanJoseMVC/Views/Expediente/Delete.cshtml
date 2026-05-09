@@ -1,0 +1,74 @@
+﻿@model ColegioSanJoseMVC.Models.Expediente
+
+@{
+    ViewData["Title"] = "Eliminar expediente";
+}
+
+<div class="container mt-4">
+
+    <div class="card shadow-sm border-0">
+
+        <div class="card-header bg-danger text-white">
+            <h4 class="mb-0">
+                <i class="bi bi-trash"></i>
+                Eliminar expediente
+            </h4>
+        </div>
+
+        <div class="card-body">
+
+            <div class="alert alert-warning">
+                ¿Está seguro que desea eliminar este expediente?
+            </div>
+
+            <dl class="row">
+
+                <dt class="col-sm-3">Alumno</dt>
+                <dd class="col-sm-9">
+                    @($"{Model.Alumno?.Nombre} {Model.Alumno?.Apellido}")
+                </dd>
+
+                <dt class="col-sm-3">Materia</dt>
+                <dd class="col-sm-9">
+                    @Model.Materia?.NombreMateria
+                </dd>
+
+                <dt class="col-sm-3">Nota final</dt>
+                <dd class="col-sm-9">
+                    @Model.NotaFinal
+                </dd>
+
+                <dt class="col-sm-3">Observaciones</dt>
+                <dd class="col-sm-9">
+                    @Model.Observaciones
+                </dd>
+
+            </dl>
+
+            <form asp-action="Delete">
+
+                <input type="hidden"
+                       asp-for="ExpedienteId" />
+
+                <div class="d-flex gap-2">
+
+                    <button type="submit"
+                            class="btn btn-danger">
+                        <i class="bi bi-trash"></i> Eliminar
+                    </button>
+
+                    <a asp-action="Index"
+                           class="btn btn-secondary">
+                        <i class="bi bi-arrow-left"></i>
+                        Volver al listado
+                    </a>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>

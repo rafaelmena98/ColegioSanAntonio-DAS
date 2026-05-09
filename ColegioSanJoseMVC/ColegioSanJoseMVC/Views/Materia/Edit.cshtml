@@ -1,0 +1,51 @@
+﻿@model ColegioSanJoseMVC.Models.Materia
+
+@{
+    ViewData["Title"] = "Editar materia";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-sm border-0">
+        <div class="card-header bg-warning text-white">
+            <h4 class="mb-0">
+                <i class="bi bi-pencil-square"></i> Editar materia
+            </h4>
+        </div>
+
+        <div class="card-body">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                <input type="hidden" asp-for="MateriaId" />
+
+                <div class="mb-3">
+                    <label asp-for="NombreMateria" class="form-label">Nombre de la materia</label>
+                    <input asp-for="NombreMateria" class="form-control" />
+                    <span asp-validation-for="NombreMateria" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Docente" class="form-label"></label>
+                    <input asp-for="Docente" class="form-control" />
+                    <span asp-validation-for="Docente" class="text-danger"></span>
+                </div>
+
+                <div class="d-flex gap-2">
+                    <button type="submit" class="btn btn-warning text-white">
+                        <i class="bi bi-save"></i> Actualizar
+                    </button>
+
+                    <a asp-action="Index" class="btn btn-secondary">
+                        <i class="bi bi-arrow-left"></i> Volver al listado
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

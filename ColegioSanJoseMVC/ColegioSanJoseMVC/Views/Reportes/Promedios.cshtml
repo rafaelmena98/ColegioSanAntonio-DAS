@@ -1,0 +1,162 @@
+﻿@model IEnumerable<ColegioSanJoseMVC.ViewModels.PromedioAlumnoViewModel>
+
+@{
+    ViewData["Title"] = "Promedios por alumno";
+
+    var nombres = Model.Select(x => x.NombreCompleto).ToList();
+    var promedios = Model.Select(x => x.PromedioNotas).ToList();
+    var totalMaterias = Model.Select(x => x.TotalMaterias).ToList();
+
+    var totalAlumnos = Model.Count();
+    var promedioGeneral = Model.Any() ? Math.Round(Model.Average(x => x.PromedioNotas), 2) : 0;
+    var mejorPromedio = Model.Any() ? Model.Max(x => x.PromedioNotas) : 0;
+    var totalInscripciones = Model.Sum(x => x.TotalMaterias);
+}
+
+<div class="container mt-4">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h2 class="fw-bold mb-1">
+                <i class="bi bi-bar-chart-line"></i> Promedios por alumno
+            </h2>
+            <p class="text-muted mb-0">
+                Resumen estadístico de notas finales registradas en los expedientes académicos.
+            </p>
+        </div>
+
+        <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">
+            <i class="bi bi-house"></i> Inicio
+        </a>
+    </div>
+
+    <div class="card shadow-sm border-0">
+        <div class="card-header bg-dark text-white">
+            <i class="bi bi-table"></i> Detalle de promedios
+        </div>
+
+        <div class="card-body">
+            <table class="table table-striped table-hover align-middle">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Alumno</th>
+                        <th>Grado</th>
+                        <th>Total de materias</th>
+                        <th>Promedio</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        var estado = item.PromedioNotas >= 7 ? "Aprobado" : "Reprobado";
+                        var badge = item.PromedioNotas >= 7 ? "bg-success" : "bg-danger";
+
+                        <tr>
+                            <td>@item.NombreCompleto</td>
+                            <td>@item.Grado</td>
+                            <td>@item.TotalMaterias</td>
+                            <td>
+                                <strong>@item.PromedioNotas</strong>
+                            </td>
+                            <td>
+                                <span class="badge @badge">@estado</span>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+
+        <div class="col-lg-8 mb-4">
+            <div class="card shadow-sm border-0 h-100">
+                <div class="card-header bg-primary text-white">
+                    <i class="bi bi-graph-up"></i> Promedio de notas por alumno
+                </div>
+                <div class="card-body">
+                    <canvas id="graficoPromedios" style="min-height: 320px;"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 mb-4">
+            <div class="card shadow-sm border-0 h-100">
+                <div class="card-header bg-success text-white">
+                    <i class="bi bi-pie-chart"></i> Materias por alumno
+                </div>
+                <div class="card-body">
+                    <canvas id="graficoMaterias" style="min-height: 320px;"></canvas>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    
+
+</div>
+<!-- Tomado desde la documentación https://www.chartjs.org/docs/latest/samples/other-charts/doughnut.html -->
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        const nombres = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(nombres));
+        const promedios = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(promedios));
+        const totalMaterias = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(totalMaterias));
+
+        new Chart(document.getElementById('graficoPromedios'), {
+        type: 'bar',
+        data: {
+        labels: nombres,
+        datasets: [{
+        label: 'Promedio',
+        data: promedios,
+        backgroundColor: 'rgba(13, 110, 253, 0.65)',
+        borderColor: 'rgba(13, 110, 253, 1)',
+        borderWidth: 1,
+        borderRadius: 6
+        }]
+        },
+        options: {
+        responsive: true,
+        plugins: {
+        legend: {
+        display: true
+        }
+        },
+        scales: {
+        y: {
+        beginAtZero: true,
+        max: 10
+        }
+        }
+        }
+        });
+
+        new Chart(document.getElementById('graficoMaterias'), {
+        type: 'doughnut',
+        data: {
+        labels: nombres,
+        datasets: [{
+        label: 'Materias',
+        data: totalMaterias,
+        backgroundColor: [
+        'rgba(13, 110, 253, 0.7)',
+        'rgba(25, 135, 84, 0.7)',
+        'rgba(255, 193, 7, 0.7)',
+        'rgba(220, 53, 69, 0.7)',
+        'rgba(13, 202, 240, 0.7)',
+        'rgba(108, 117, 125, 0.7)'
+        ]
+        }]
+        },
+        options: {
+        responsive: true
+        }
+        });
+    </script>
+}

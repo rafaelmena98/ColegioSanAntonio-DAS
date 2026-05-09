@@ -1,0 +1,43 @@
+﻿@model ColegioSanJoseMVC.Models.Materia
+
+@{
+    ViewData["Title"] = "Eliminar materia";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-sm border-0">
+        <div class="card-header bg-danger text-white">
+            <h4 class="mb-0">
+                <i class="bi bi-trash"></i> Eliminar materia
+            </h4>
+        </div>
+
+        <div class="card-body">
+            <div class="alert alert-warning">
+                ¿Está seguro que desea eliminar esta materia?
+            </div>
+
+            <dl class="row">
+                <dt class="col-sm-3">Nombre de la materia</dt>
+                <dd class="col-sm-9">@Model.NombreMateria</dd>
+
+                <dt class="col-sm-3">Docente</dt>
+                <dd class="col-sm-9">@Model.Docente</dd>
+            </dl>
+
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="MateriaId" />
+
+                <div class="d-flex gap-2">
+                    <button type="submit" class="btn btn-danger">
+                        <i class="bi bi-trash"></i> Eliminar
+                    </button>
+
+                    <a asp-action="Index" class="btn btn-secondary">
+                        <i class="bi bi-arrow-left"></i> Volver al listado
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

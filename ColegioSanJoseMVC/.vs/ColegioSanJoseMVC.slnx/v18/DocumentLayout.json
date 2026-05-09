@@ -1,0 +1,502 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|c:\\users\\irving\\desktop\\personal\\rafa\\netproject\\colegiosanjosemvc\\colegiosanjosemvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|solutionrelative:colegiosanjosemvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|c:\\users\\irving\\desktop\\personal\\rafa\\netproject\\colegiosanjosemvc\\colegiosanjosemvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|solutionrelative:colegiosanjosemvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|c:\\users\\irving\\desktop\\personal\\rafa\\netproject\\colegiosanjosemvc\\colegiosanjosemvc\\views\\reportes\\promedios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|solutionrelative:colegiosanjosemvc\\views\\reportes\\promedios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|c:\\users\\irving\\desktop\\personal\\rafa\\netproject\\colegiosanjosemvc\\colegiosanjosemvc\\views\\expediente\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|solutionrelative:colegiosanjosemvc\\views\\expediente\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|c:\\users\\irving\\desktop\\personal\\rafa\\netproject\\colegiosanjosemvc\\colegiosanjosemvc\\views\\expediente\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|solutionrelative:colegiosanjosemvc\\views\\expediente\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|c:\\users\\irving\\desktop\\personal\\rafa\\netproject\\colegiosanjosemvc\\colegiosanjosemvc\\views\\expediente\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|solutionrelative:colegiosanjosemvc\\views\\expediente\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|c:\\users\\irving\\desktop\\personal\\rafa\\netproject\\colegiosanjosemvc\\colegiosanjosemvc\\views\\expediente\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|solutionrelative:colegiosanjosemvc\\views\\expediente\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|c:\\users\\irving\\desktop\\personal\\rafa\\netproject\\colegiosanjosemvc\\colegiosanjosemvc\\views\\expediente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|solutionrelative:colegiosanjosemvc\\views\\expediente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|c:\\users\\irving\\desktop\\personal\\rafa\\netproject\\colegiosanjosemvc\\colegiosanjosemvc\\views\\materia\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|solutionrelative:colegiosanjosemvc\\views\\materia\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|c:\\users\\irving\\desktop\\personal\\rafa\\netproject\\colegiosanjosemvc\\colegiosanjosemvc\\views\\materia\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|solutionrelative:colegiosanjosemvc\\views\\materia\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|c:\\users\\irving\\desktop\\personal\\rafa\\netproject\\colegiosanjosemvc\\colegiosanjosemvc\\views\\materia\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|solutionrelative:colegiosanjosemvc\\views\\materia\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|c:\\users\\irving\\desktop\\personal\\rafa\\netproject\\colegiosanjosemvc\\colegiosanjosemvc\\views\\materia\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|solutionrelative:colegiosanjosemvc\\views\\materia\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|c:\\users\\irving\\desktop\\personal\\rafa\\netproject\\colegiosanjosemvc\\colegiosanjosemvc\\views\\materia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|solutionrelative:colegiosanjosemvc\\views\\materia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|c:\\users\\irving\\desktop\\personal\\rafa\\netproject\\colegiosanjosemvc\\colegiosanjosemvc\\views\\alumno\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|solutionrelative:colegiosanjosemvc\\views\\alumno\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|c:\\users\\irving\\desktop\\personal\\rafa\\netproject\\colegiosanjosemvc\\colegiosanjosemvc\\views\\alumno\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|solutionrelative:colegiosanjosemvc\\views\\alumno\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|c:\\users\\irving\\desktop\\personal\\rafa\\netproject\\colegiosanjosemvc\\colegiosanjosemvc\\views\\alumno\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|solutionrelative:colegiosanjosemvc\\views\\alumno\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|c:\\users\\irving\\desktop\\personal\\rafa\\netproject\\colegiosanjosemvc\\colegiosanjosemvc\\views\\alumno\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|solutionrelative:colegiosanjosemvc\\views\\alumno\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|c:\\users\\irving\\desktop\\personal\\rafa\\netproject\\colegiosanjosemvc\\colegiosanjosemvc\\views\\alumno\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|solutionrelative:colegiosanjosemvc\\views\\alumno\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|c:\\users\\irving\\desktop\\personal\\rafa\\netproject\\colegiosanjosemvc\\colegiosanjosemvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|solutionrelative:colegiosanjosemvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|c:\\users\\irving\\desktop\\personal\\rafa\\netproject\\colegiosanjosemvc\\colegiosanjosemvc\\controllers\\reportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|solutionrelative:colegiosanjosemvc\\controllers\\reportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|c:\\users\\irving\\desktop\\personal\\rafa\\netproject\\colegiosanjosemvc\\colegiosanjosemvc\\viewmodels\\promedioalumnoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|solutionrelative:colegiosanjosemvc\\viewmodels\\promedioalumnoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|c:\\users\\irving\\desktop\\personal\\rafa\\netproject\\colegiosanjosemvc\\colegiosanjosemvc\\controllers\\expedientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|solutionrelative:colegiosanjosemvc\\controllers\\expedientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|c:\\users\\irving\\desktop\\personal\\rafa\\netproject\\colegiosanjosemvc\\colegiosanjosemvc\\controllers\\materiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|solutionrelative:colegiosanjosemvc\\controllers\\materiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|c:\\users\\irving\\desktop\\personal\\rafa\\netproject\\colegiosanjosemvc\\colegiosanjosemvc\\controllers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|solutionrelative:colegiosanjosemvc\\controllers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|c:\\users\\irving\\desktop\\personal\\rafa\\netproject\\colegiosanjosemvc\\colegiosanjosemvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|solutionrelative:colegiosanjosemvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|c:\\users\\irving\\desktop\\personal\\rafa\\netproject\\colegiosanjosemvc\\colegiosanjosemvc\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|solutionrelative:colegiosanjosemvc\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|c:\\users\\irving\\desktop\\personal\\rafa\\netproject\\colegiosanjosemvc\\colegiosanjosemvc\\models\\expediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|solutionrelative:colegiosanjosemvc\\models\\expediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|c:\\users\\irving\\desktop\\personal\\rafa\\netproject\\colegiosanjosemvc\\colegiosanjosemvc\\models\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|solutionrelative:colegiosanjosemvc\\models\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|c:\\users\\irving\\desktop\\personal\\rafa\\netproject\\colegiosanjosemvc\\colegiosanjosemvc\\models\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE8B2B93-8A68-A816-CDAB-D5F261D19D48}|ColegioSanJoseMVC\\ColegioSanJoseMVC.csproj|solutionrelative:colegiosanjosemvc\\models\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Expediente\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ColegioSanJoseMVC\\Views\\Expediente\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Expediente\\Delete.cshtml",
+              "RelativeToolTip": "ColegioSanJoseMVC\\Views\\Expediente\\Delete.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwEkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T20:15:07.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Expediente\\Create.cshtml",
+              "RelativeDocumentMoniker": "ColegioSanJoseMVC\\Views\\Expediente\\Create.cshtml",
+              "ToolTip": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Expediente\\Create.cshtml",
+              "RelativeToolTip": "ColegioSanJoseMVC\\Views\\Expediente\\Create.cshtml",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAIwGMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T20:14:45.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Materia\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ColegioSanJoseMVC\\Views\\Materia\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Materia\\Delete.cshtml",
+              "RelativeToolTip": "ColegioSanJoseMVC\\Views\\Materia\\Delete.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T20:13:01.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Materia\\Details.cshtml",
+              "RelativeDocumentMoniker": "ColegioSanJoseMVC\\Views\\Materia\\Details.cshtml",
+              "ToolTip": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Materia\\Details.cshtml",
+              "RelativeToolTip": "ColegioSanJoseMVC\\Views\\Materia\\Details.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwCIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T20:12:54.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Materia\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ColegioSanJoseMVC\\Views\\Materia\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Materia\\Edit.cshtml",
+              "RelativeToolTip": "ColegioSanJoseMVC\\Views\\Materia\\Edit.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T20:12:48.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Expediente\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ColegioSanJoseMVC\\Views\\Expediente\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Expediente\\Edit.cshtml",
+              "RelativeToolTip": "ColegioSanJoseMVC\\Views\\Expediente\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T05:43:04.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Promedios.cshtml",
+              "DocumentMoniker": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Reportes\\Promedios.cshtml",
+              "RelativeDocumentMoniker": "ColegioSanJoseMVC\\Views\\Reportes\\Promedios.cshtml",
+              "ToolTip": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Reportes\\Promedios.cshtml",
+              "RelativeToolTip": "ColegioSanJoseMVC\\Views\\Reportes\\Promedios.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T06:01:16.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ColegioSanJoseMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ColegioSanJoseMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T20:01:36.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ColegioSanJoseMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ColegioSanJoseMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T06:02:07.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Materia\\Create.cshtml",
+              "RelativeDocumentMoniker": "ColegioSanJoseMVC\\Views\\Materia\\Create.cshtml",
+              "ToolTip": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Materia\\Create.cshtml",
+              "RelativeToolTip": "ColegioSanJoseMVC\\Views\\Materia\\Create.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAIwCcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T20:12:39.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Materia\\Index.cshtml",
+              "RelativeDocumentMoniker": "ColegioSanJoseMVC\\Views\\Materia\\Index.cshtml",
+              "ToolTip": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Materia\\Index.cshtml",
+              "RelativeToolTip": "ColegioSanJoseMVC\\Views\\Materia\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T20:12:32.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Alumno\\Details.cshtml",
+              "RelativeDocumentMoniker": "ColegioSanJoseMVC\\Views\\Alumno\\Details.cshtml",
+              "ToolTip": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Alumno\\Details.cshtml",
+              "RelativeToolTip": "ColegioSanJoseMVC\\Views\\Alumno\\Details.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwB8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T20:07:34.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Expediente\\Details.cshtml",
+              "RelativeDocumentMoniker": "ColegioSanJoseMVC\\Views\\Expediente\\Details.cshtml",
+              "ToolTip": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Expediente\\Details.cshtml",
+              "RelativeToolTip": "ColegioSanJoseMVC\\Views\\Expediente\\Details.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAIwD8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T05:51:13.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Alumno\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ColegioSanJoseMVC\\Views\\Alumno\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Alumno\\Delete.cshtml",
+              "RelativeToolTip": "ColegioSanJoseMVC\\Views\\Alumno\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T20:05:33.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Alumno\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ColegioSanJoseMVC\\Views\\Alumno\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Alumno\\Edit.cshtml",
+              "RelativeToolTip": "ColegioSanJoseMVC\\Views\\Alumno\\Edit.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAIwDMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T20:06:57.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Expediente\\Index.cshtml",
+              "RelativeDocumentMoniker": "ColegioSanJoseMVC\\Views\\Expediente\\Index.cshtml",
+              "ToolTip": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Expediente\\Index.cshtml",
+              "RelativeToolTip": "ColegioSanJoseMVC\\Views\\Expediente\\Index.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAIwFQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T05:39:45.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Alumno\\Create.cshtml",
+              "RelativeDocumentMoniker": "ColegioSanJoseMVC\\Views\\Alumno\\Create.cshtml",
+              "ToolTip": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Alumno\\Create.cshtml",
+              "RelativeToolTip": "ColegioSanJoseMVC\\Views\\Alumno\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T20:04:09.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ColegioSanJoseMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ColegioSanJoseMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T06:02:42.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Alumno\\Index.cshtml",
+              "RelativeDocumentMoniker": "ColegioSanJoseMVC\\Views\\Alumno\\Index.cshtml",
+              "ToolTip": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Views\\Alumno\\Index.cshtml",
+              "RelativeToolTip": "ColegioSanJoseMVC\\Views\\Alumno\\Index.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAIwDEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T05:35:20.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ReportesController.cs",
+              "DocumentMoniker": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Controllers\\ReportesController.cs",
+              "RelativeDocumentMoniker": "ColegioSanJoseMVC\\Controllers\\ReportesController.cs",
+              "ToolTip": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Controllers\\ReportesController.cs",
+              "RelativeToolTip": "ColegioSanJoseMVC\\Controllers\\ReportesController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T05:57:53.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PromedioAlumnoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\ViewModels\\PromedioAlumnoViewModel.cs",
+              "RelativeDocumentMoniker": "ColegioSanJoseMVC\\ViewModels\\PromedioAlumnoViewModel.cs",
+              "ToolTip": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\ViewModels\\PromedioAlumnoViewModel.cs",
+              "RelativeToolTip": "ColegioSanJoseMVC\\ViewModels\\PromedioAlumnoViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T05:56:32.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ExpedienteController.cs",
+              "DocumentMoniker": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Controllers\\ExpedienteController.cs",
+              "RelativeDocumentMoniker": "ColegioSanJoseMVC\\Controllers\\ExpedienteController.cs",
+              "ToolTip": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Controllers\\ExpedienteController.cs",
+              "RelativeToolTip": "ColegioSanJoseMVC\\Controllers\\ExpedienteController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T05:36:44.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MateriaController.cs",
+              "DocumentMoniker": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Controllers\\MateriaController.cs",
+              "RelativeDocumentMoniker": "ColegioSanJoseMVC\\Controllers\\MateriaController.cs",
+              "ToolTip": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Controllers\\MateriaController.cs",
+              "RelativeToolTip": "ColegioSanJoseMVC\\Controllers\\MateriaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T05:36:03.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AlumnoController.cs",
+              "DocumentMoniker": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Controllers\\AlumnoController.cs",
+              "RelativeDocumentMoniker": "ColegioSanJoseMVC\\Controllers\\AlumnoController.cs",
+              "ToolTip": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Controllers\\AlumnoController.cs",
+              "RelativeToolTip": "ColegioSanJoseMVC\\Controllers\\AlumnoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T05:23:34.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Program.cs",
+              "RelativeDocumentMoniker": "ColegioSanJoseMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Program.cs",
+              "RelativeToolTip": "ColegioSanJoseMVC\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T05:21:16.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ColegioSanJoseMVC\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ColegioSanJoseMVC\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwB0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T05:20:16.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Expediente.cs",
+              "DocumentMoniker": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Models\\Expediente.cs",
+              "RelativeDocumentMoniker": "ColegioSanJoseMVC\\Models\\Expediente.cs",
+              "ToolTip": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Models\\Expediente.cs",
+              "RelativeToolTip": "ColegioSanJoseMVC\\Models\\Expediente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T05:19:24.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Materia.cs",
+              "DocumentMoniker": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Models\\Materia.cs",
+              "RelativeDocumentMoniker": "ColegioSanJoseMVC\\Models\\Materia.cs",
+              "ToolTip": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Models\\Materia.cs",
+              "RelativeToolTip": "ColegioSanJoseMVC\\Models\\Materia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T05:18:47.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Alumno.cs",
+              "DocumentMoniker": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Models\\Alumno.cs",
+              "RelativeDocumentMoniker": "ColegioSanJoseMVC\\Models\\Alumno.cs",
+              "ToolTip": "C:\\Users\\IRVING\\Desktop\\Personal\\RAFA\\netproject\\ColegioSanJoseMVC\\ColegioSanJoseMVC\\Models\\Alumno.cs",
+              "RelativeToolTip": "ColegioSanJoseMVC\\Models\\Alumno.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T05:16:34.174Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
